@@ -12,7 +12,7 @@ sock.bind(serverAddress)
 sock.listen(1)
 
 while True:
-    print('\nEsperando conexion remota')
+    print('\nEsperando conexion remota de un cliente')
     connection, clientAddress = sock.accept()
 
     try:
